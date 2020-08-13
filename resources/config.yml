@@ -7,7 +7,7 @@
 
 #Configuration
 
-divided-time: 4.6666  #Le plugin divise le temps de jeu (en seconde) par la valeur indiquée, ce qui va donner la monnaie que va recevoir le joueur.
+divided-time: 20  #Le plugin divise le temps de jeu (en seconde) par la valeur indiquée, ce qui va donner la monnaie que va recevoir le joueur.
                   #The plugin divides the playing time (in seconds) by the indicated value, which will give the currency that the player will receive.
 time-after-can-recover-atm: 120 #In seconds please / En secondes s'il vous plait.
 activate-permission: false #change on true if you want have permission for use ATM / changez sur true si vous voulez avoir une permissio pour utiliser l'ATM
