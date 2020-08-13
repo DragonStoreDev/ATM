@@ -17,6 +17,9 @@ class Loader extends PluginBase implements Listener {
         @mkdir($this->getDataFolder() . 'Database/');
         self::$instance = $this;
         $this->bdd = new \SQLite3($this->getDataFolder() . 'Database/ATM.db');
+        if(!file_exists($this->getDataFolder() . 'config.yml')){
+            $this->saveResource('config.yml');
+        }
         Server::getInstance()->getPluginManager()->registerEvents(new BaseListener($this), $this);
         Server::getInstance()->getCommandMap()->register('Commands', new Commands\ATMCommand($this));
         API::init();

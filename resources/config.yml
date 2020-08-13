@@ -1,0 +1,23 @@
+#____          _   _
+# | __ ) _   _  | \ | | ___ _ __ _________  __
+# |  _ \| | | | |  \| |/ _ \ '__|_  / _ \ \/ /
+# | |_) | |_| | | |\  |  __/ |   / / (_) >  <
+# |____/ \__, | |_| \_|\___|_|  /___\___/_/\_\
+#        |___/
+
+#Configuration
+
+divided-time: 4.6666  #Le plugin divise le temps de jeu (en seconde) par la valeur indiquée, ce qui va donner la monnaie que va recevoir le joueur.
+                  #The plugin divides the playing time (in seconds) by the indicated value, which will give the currency that the player will receive.
+time-after-can-recover-atm: 120 #In seconds please / En secondes s'il vous plait.
+activate-permission: false #change on true if you want have permission for use ATM / changez sur true si vous voulez avoir une permissio pour utiliser l'ATM
+permission-name: "" #fill only if "activate-permission" is set on true. / Remplissez seulement si "activate-permission" est sur true.
+language: 'en' #Set en if you are english / indiquez fr si vous etes francais.
+reset-deconnect-player: true #Indiquez true si vous voulez que l'atm se reset à chaque deconnexions, false si vous ne le voulez pas. / Specify true if you want the atm to reset on every disconnection, false if you don't.
+
+#Message
+
+no-wait-can-recover-atm-time: "§cPlease wait minimum 2 minutes before use your ATM" #Le joueur n'a pas attendu le temps précisé dans "time-after-can-recover-atm" / The player did not wait for the time indicated in "time-after-can-recover-atm"
+atm-claim: "§2You have claim your ATM !"
+no-permission: ""#fill only if "activate-permission" is on true / Remplissez seulement si "activate-permission" est sur true.
+command-no-use-in-game: "§cPlease use this command in-game!"
