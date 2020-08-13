@@ -13,7 +13,6 @@ time-after-can-recover-atm: 120 #In seconds please / En secondes s'il vous plait
 activate-permission: false #change on true if you want have permission for use ATM / changez sur true si vous voulez avoir une permissio pour utiliser l'ATM
 permission-name: "" #fill only if "activate-permission" is set on true. / Remplissez seulement si "activate-permission" est sur true.
 language: 'en' #Set en if you are english / indiquez fr si vous etes francais.
-reset-deconnect-player: true #Indiquez true si vous voulez que l'atm se reset à chaque deconnexions, false si vous ne le voulez pas. / Specify true if you want the atm to reset on every disconnection, false if you don't.
 
 #Message
 
