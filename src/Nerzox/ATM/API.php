@@ -24,11 +24,7 @@ class API{
         $db = self::getDatabase();
         $name = strtolower($player->getName());
 
-        if(self::isRegisted($player)){
-            $db->query("UPDATE atm SET timelogin = '$timestamp' WHERE playername = '$name'");
-        }else{
-            self::register($player, $timestamp);
-        }
+        $db->query("UPDATE atm SET timelogin = '$timestamp' WHERE playername = '$name'");
         $db->close();
     }
     public static function isRegisted(Player $player){

@@ -85,7 +85,7 @@ class ATMCommand extends PluginCommand{
         });
         if ($this->language === 'fr') {
             $form->setTitle('§f§l>> §4ATM');
-            $form->setContent("Voulez-vous prendre votre ATM ? Nombre total des gains : " . round(API::getATM($player, time()) / $this->dividedtime, 1) . '$');
+            $form->setContent("Voulez-vous prendre votre ATM ? Nombre total des gains : " . round(API::getATM($player, time()) / $this->dividedtime) . '$');
             $form->addButton('§2Oui !');
             $form->addButton('§4Non.');
         }elseif($this->language === 'en'){
